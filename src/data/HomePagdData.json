@@ -1,9 +1,9 @@
 {
   "hero": {
     "imgUrl": "/images/avatar-1.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
+    "name": "Mohsin A.",
+    "heading": "Hay! I’m Mohsin",
+    "typingText": ["I'm a Full Stack Developer", 1800],
     "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
@@ -57,17 +57,17 @@
   ],
   "about": {
     "imgSrc": "/images/about-banner.png",
-    "miniTitle": "About Us",
-    "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
+    "miniTitle": "About Me",
+    "title": "I AM AVAILABLE FOR <span>Web & Mobile app</span> PROJECTS",
     "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
     "funfacts": [
       {
-        "title": "Google Review",
-        "number": 280
+        "title": "Happy Clients",
+        "number": 594
       },
       {
         "title": "Years Experience",
-        "number": 15
+        "number": 5
       },
       {
         "title": "Awward Winning",
@@ -270,8 +270,8 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "sample@domain.com" },
-      { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }
+      { "title": "Write an e-mail", "email": "hmdmohsinali@gmail.com" },
+      { "title": "write an e-mail", "tel": "+923 046 768 087" }
     ]
   }
 }
