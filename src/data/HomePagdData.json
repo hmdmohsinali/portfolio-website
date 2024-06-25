@@ -3,7 +3,7 @@
     "imgUrl": "/images/avatar-1.png",
     "name": "Mohsin A.",
     "heading": "Hay! I’m Mohsin",
-    "typingText": ["I'm a Full Stack Developer", 1800],
+    "typingText": ["I'm Web Developer", 1500,"I'm Web Designer", 1500],
     "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
@@ -176,32 +176,32 @@
     },
     "allService": [
       {
-        "imgUrl": "/images/service-01.jpg",
-        "title": "Website Design",
+        "imgUrl": "/images/service-01.png",
+        "title": "Web Apps Development",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:brush-fill",
-        "ratings": 5
+        "ratings": 4.6
       },
       {
-        "imgUrl": "/images/service-02.jpg",
-        "title": "Website Design",
+        "imgUrl": "/images/service-02.png",
+        "title": "Mobile Apps Development",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:code-square",
         "ratings": 4.5
       },
       {
-        "imgUrl": "/images/service-03.jpg",
+        "imgUrl": "/images/service-03.png",
         "title": "SEO Marketing",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:speedometer2",
         "ratings": 5
       },
       {
-        "imgUrl": "/images/service-04.jpg",
+        "imgUrl": "/images/service-04.png",
         "title": "Graphic Design",
         "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
         "icon": "bi:palette",
-        "ratings": 5
+        "ratings": 4.4
       }
     ]
   },
