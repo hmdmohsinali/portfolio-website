@@ -1,5 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Brands({ data }) {
   var settings = {
@@ -39,6 +41,7 @@ export default function Brands({ data }) {
       },
     ],
   };
+
   return (
     <div className="py-3 py-md-4 brand-section gray-bg">
       <div
