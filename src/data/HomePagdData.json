@@ -18,7 +18,7 @@
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "/"
+      "href": "www.linkedin.com/in/hmdmohsinali"
     }
   ],
   "brands": [
@@ -191,8 +191,8 @@
       },
       {
         "imgUrl": "/images/service-03.png",
-        "title": "SEO Marketing",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "title": "API Development and Integration",
+        "subTitle": "Creating and integrating RESTful or GraphQL APIs to connect different parts of an application, enabling communication between the front end and back end, or integrating third-party services.",
         "icon": "bi:speedometer2",
         "ratings": 5
       },
