@@ -9,8 +9,8 @@ export default function Brands({ data }) {
     arrows: false,
     infinite: true,  // Enable infinite loop for auto sliding
     autoplay: true,  // Enable auto-slide
-    autoplaySpeed: 1000,  // Set duration between slides (0.5 seconds)
-    speed: 5000,  // Transition speed for slide movement (0.5 seconds)
+    autoplaySpeed: 3000,  // Set duration between slides (0.5 seconds)
+    speed: 1000,  // Transition speed for slide movement (0.5 seconds)
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
