@@ -7,10 +7,10 @@ export default function Brands({ data }) {
   var settings = {
     dots: false,
     arrows: false,
-    infinite: true,
-    autoplay: false,
-    autoplaySpeed: 4000,
-    speed: 1000,
+    infinite: true,  // Enable infinite loop for auto sliding
+    autoplay: true,  // Enable auto-slide
+    autoplaySpeed: 1000,  // Set duration between slides (0.5 seconds)
+    speed: 5000,  // Transition speed for slide movement (0.5 seconds)
     slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -43,7 +43,7 @@ export default function Brands({ data }) {
   };
 
   return (
-    <div className="py-3 py-md-4 brand-section gray-bg">
+    <div className="brand-section gray-bg">
       <div
         className="container"
         data-aos="fade"
@@ -54,7 +54,8 @@ export default function Brands({ data }) {
           {data.map((item, index) => (
             <div key={index}>
               <div className="pt-3 pb-3 text-center d-flex align-items-center justify-content-center w-100">
-                <img src={item.src} alt={item.alt} className="w-100" />
+                {/* Adjusted image size */}
+                <img src={item.src} alt={item.alt} style={{ width: '70px', height: 'auto' }} />
               </div>
             </div>
           ))}

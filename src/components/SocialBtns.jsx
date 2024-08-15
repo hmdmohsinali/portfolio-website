@@ -10,16 +10,17 @@ export default function SocialBtns({ variant, socialBtns }) {
       data-aos-duration="1200"
       data-aos-delay="300"
     >
-      {socialBtns?.map((item, index) => (
-        <Link
-          className={item.iconBgClass}
-          to={item.href}
-          key={index}
-          target="_blank"
-        >
-          <Icon icon={item.icon} />
-        </Link>
-      ))}
+  {socialBtns?.map((item, index) => (
+  <a
+    className={item.iconBgClass}
+    href={item.href}
+    key={index}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Icon icon={item.icon} />
+  </a>
+))}
     </div>
   );
 }
