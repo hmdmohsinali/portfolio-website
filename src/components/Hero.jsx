@@ -65,6 +65,7 @@ export default function Hero({ data, socialData }) {
                 <SocialBtns
                   socialBtns={socialData}
                   variant="ps-sm-4 pt-4 pt-sm-0 d-flex justify-content-center justify-content-sm-start"
+                  
                 />
               </div>
             </div>

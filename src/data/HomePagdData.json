@@ -3,18 +3,33 @@
     "imgUrl": "/images/avatar-1.png",
     "name": "Mohsin A.",
     "heading": "Hay! I’m Mohsin",
-    "typingText": ["Full Stack Developer", 1500, "Crafting Seamless Web Experiences", 1500, "Building Innovative Mobile Solutions", 1500, "MERN Stack & React Native Specialist", 1500],
-    "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
+    "typingText": [
+      "Full Stack Developer",
+      1500,
+      "Crafting Seamless Web Experiences",
+      1500,
+      "Building Innovative Mobile Solutions",
+      1500,
+      "MERN Stack & React Native Specialist",
+      1500
+    ],
+    "description": "Turning visions into reality with dynamic and immersive web and mobile applications.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
   "socialBtns": [
     {
-      "icon": "fa-brands:facebook-f",
+      "icon": "simple-icons:fiverr",
+      "style": "color:white",
       "iconBgClass": "facebook",
       "href": "/"
     },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
+    {
+      "icon": "fa6-brands:upwork",
+      
+      "iconBgClass": "upwork",
+      "href": "https://www.upwork.com/freelancers/mohsina300?mp_source=share"
+    },
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
@@ -50,7 +65,6 @@
       "src": "/images/PostgresSQL.png",
       "alt": "Logolpsum"
     }
-    
   ],
   "about": {
     "imgSrc": "/images/about-banner.png",
@@ -267,8 +281,14 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "hmdmohsinali@gmail.com" },
-      { "title": "Give me a Call", "tel": "+923 046 768 087" }
+      {
+        "title": "Write an e-mail",
+        "email": "hmdmohsinali@gmail.com"
+      },
+      {
+        "title": "Give me a Call",
+        "tel": "+923 046 768 087"
+      }
     ]
   }
 }
