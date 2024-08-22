@@ -8,9 +8,9 @@
       1500,
       "Crafting Seamless Web Experiences",
       1500,
-      "Building Innovative Mobile Solutions",
-      1500,
       "MERN Stack & React Native Specialist",
+      1500,
+      "Building Innovative Mobile Solutions",
       1500
     ],
     "description": "Turning visions into reality with dynamic and immersive web and mobile applications.",
@@ -37,12 +37,13 @@
     }
   ],
   "brands": [
+    
     {
-      "src": "/images/html.png",
+      "src": "/images/js.png",
       "alt": "Logolpsum"
     },
     {
-      "src": "/images/js.png",
+      "src": "/images/Tailwind CSS.png",
       "alt": "Logolpsum"
     },
     {
@@ -51,10 +52,6 @@
     },
     {
       "src": "/images/node.png",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/Tailwind CSS.png",
       "alt": "Logolpsum"
     },
     {
@@ -69,20 +66,20 @@
   "about": {
     "imgSrc": "/images/about-banner.png",
     "miniTitle": "About Me",
-    "title": "I AM AVAILABLE FOR <span>Web & Mobile app</span> PROJECTS",
-    "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-    "funfacts": [
+    "title": "CRAFTING DIGITAL EXPERIENCES WITH <span>MERN STACK EXPERTISE</span>",
+    "description": "As a dedicated Full Stack Developer with extensive experience in the MERN stack, I bring a comprehensive approach to web and mobile app development. From creating responsive and user-friendly front-end interfaces to building robust and scalable back-end systems, I am committed to delivering high-quality solutions that meet your project needs. Let's work together to bring your vision to life.",
+        "funfacts": [
       {
         "title": "Happy Clients",
-        "number": 594
+        "number": 100
       },
       {
         "title": "Years Experience",
-        "number": 5
+        "number": 4
       },
       {
-        "title": "Awward Winning",
-        "number": 49
+        "title": "Intl. Projects",
+        "number": 150
       }
     ],
     "btnText": "Get in touch",
@@ -223,27 +220,27 @@
     },
     "allExperience": [
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Full Stack Developer",
+        "company": "FA Tech & Solutions",
+        "duration": "Jun 2024 - PRESENT",
         "jobType": "Full time",
-        "companyTitle": "About Company",
+        "companyTitle": "About FA Tech & Solutions",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Full Stack Developer",
+        "company": "Generation.org | REMOTE",
+        "duration": "JAN 2021 - May 2024",
         "jobType": "Full time",
-        "companyTitle": "About Company",
+        "companyTitle": "About Generation.org",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Backend Developer",
+        "company": "Qubizen Technologies",
+        "duration": "Feb 2019 - Nov 2020",
         "jobType": "Full time",
-        "companyTitle": "About Company",
+        "companyTitle": "About Qubizen Technologies",
         "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
       }
     ]
