@@ -5,32 +5,38 @@
 }
 /* For WebKit browsers */
 ::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar */
+  width: 8px; /* Thinner scrollbar for a sleek look */
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Background of the scrollbar track */
+  background: linear-gradient(180deg, #e0e7ff, #cbd5e1); /* Gradient background for the track */
+  border-radius: 10px; /* Rounded corners for the track */
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000; /* Background color of the scrollbar thumb */
-  border-radius: 10px; /* Rounded corners */
+  background: linear-gradient(180deg, #3b82f6, #1e3a8a); /* Gradient for the thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #e0e7ff; /* Solid border to create separation */
+  box-sizing: border-box; /* Ensures border doesn't affect the radius */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Slight outer shadow for a floating effect */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the scrollbar thumb when hovered */
+  background: linear-gradient(180deg, #60a5fa, #3b82f6); /* Lighter gradient on hover */
 }
 
-html{
-  scrollbar-width: thin; /* Width of the scrollbar */
-  scrollbar-color: #000 #f1f1f1; /* Color of the scrollbar thumb and track */
-
+/* For non-WebKit browsers */
+html {
+  scrollbar-width: thin; /* Thinner scrollbar */
+  scrollbar-color: #050D17 #062D4E; /* Blue thumb and light blue track */
 }
+
+/* Optional: Additional styling for overall page consistency */
 body {
-  overflow-x: hidden;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-y: scroll; /* Ensures scrollbar is always visible for consistent design */
+  scrollbar-gutter: stable; /* Avoids content shifting when scrollbar appears */
 }
-
 img {
   max-width: 100%;
 }
