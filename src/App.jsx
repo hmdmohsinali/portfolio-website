@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   useEffect(() => {
@@ -12,11 +13,14 @@ function App() {
     });
   }, []);
   return (
+    <div>
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
       </Route>
     </Routes>
+    <Analytics/>
+    </div>
   );
 }
 
