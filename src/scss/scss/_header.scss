@@ -1,3 +1,5 @@
+@use 'src/scss/scss/_mixin' as mixin; // Import with a namespace 'mixin'
+
 .toggler-menu {
   background-color: transparent;
   color: var(--px-white);
@@ -40,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include down-md {
+    @include mixin.down-md { // Use the 'mixin.' namespace
       max-width: 100%;
     }
   }
@@ -49,7 +51,7 @@
     list-style: none;
     margin: 0 0 0 auto;
     padding: 0 50px 0 0;
-    @include down-md {
+    @include mixin.down-md { // Use the 'mixin.' namespace
       position: absolute;
       top: 100%;
       left: 0;
@@ -63,7 +65,7 @@
     }
     > li {
       padding: 0 20px;
-      @include down-md {
+      @include mixin.down-md { // Use the 'mixin.' namespace
         padding: 8px 0;
       }
       a {
@@ -105,7 +107,7 @@
     display: none;
   }
   &.menu-open {
-    @include down-lg {
+    @include mixin.down-lg { // Use the 'mixin.' namespace
       .main-menu {
         display: flex;
         align-items: flex-start;

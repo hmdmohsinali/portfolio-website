@@ -19,11 +19,11 @@ Primary use:laralink
 
 -------------------------------------------------------------------*/
 
-@import 'scss/variable';
-@import 'scss/mixin';
-@import 'scss/root';
-@import 'scss/header';
-@import 'scss/footer';
-@import 'scss/button';
-@import 'scss/base';
-@import 'scss/style';
+@use 'scss/variable' as *; // Import variables into global scope
+@use 'scss/mixin' as *;    // Import mixins into global scope
+@use 'scss/root';
+@use 'scss/header';
+@use 'scss/footer';
+@use 'scss/button';
+@use 'scss/base';
+@use 'scss/style';

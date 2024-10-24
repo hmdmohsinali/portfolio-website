@@ -1,9 +1,13 @@
+@use 'src/scss/scss/_variable' as variable; // Ensure the correct path and namespace
+@use 'src/scss/scss/_mixin' as mixin; // Import with a namespace 'mixin'
+
+
 /* Background
 -------------------------------*/
 body {
   background-color: var(--px-bg);
   color: var(--px-text);
-  font-family: $px-font;
+  font-family: variable.$px-font;
   --bs-body-font-weight: 400;
   --bs-body-font-size: 1rem;
   --bs-body-line-height: 1.6;
@@ -126,7 +130,7 @@ a {
   .owl-next {
     right: 0px;
 
-    @include up-lg {
+    @include mixin.up-lg {
       right: -50px;
     }
   }
@@ -134,7 +138,7 @@ a {
   .owl-prev {
     left: 0px;
 
-    @include up-lg {
+    @include mixin.up-lg {
       left: -50px;
     }
   }
@@ -148,12 +152,12 @@ a {
   overflow: hidden;
   z-index: 1;
   padding-top: 150px;
-  @include down-md {
+  @include mixin.down-md {
     padding-top: 130px;
   }
 
   .hs-text-box {
-    @include down-md {
+    @include mixin.down-md {
       padding-bottom: 50px;
     }
     h6 {
@@ -176,10 +180,10 @@ a {
       font-weight: 700;
       font-size: 70px;
       text-transform: uppercase;
-      @include down-lg {
+      @include mixin.down-lg {
         font-size: 45px;
       }
-      @include down-sm {
+      @include mixin.down-sm {
         font-size: 38px;
       }
     }
@@ -189,11 +193,11 @@ a {
       font-size: 70px;
       text-transform: uppercase;
       margin: 0 0 30px;
-      @include down-lg {
+      @include mixin.down-lg {
         font-size: 45px;
         margin: 0 0 20px;
       }
-      @include down-sm {
+      @include mixin.down-sm {
         font-size: 38px;
         margin: 0 0 10px;
       }
@@ -204,10 +208,10 @@ a {
       line-height: 150%;
       letter-spacing: 0.01em;
       color: var(--px-white);
-      @include down-lg {
+      @include mixin.down-lg {
         font-size: 18px;
       }
-      @include down-sm {
+      @include mixin.down-sm {
         font-size: 16px;
       }
     }
@@ -232,7 +236,7 @@ a {
     left: 0;
     z-index: -1;
     animation: rotate360 reverse 40s linear infinite;
-    @include down-md {
+    @include mixin.down-md {
       display: none;
     }
   }
@@ -242,7 +246,7 @@ a {
     right: -60px;
     z-index: -1;
     animation: rotate360 40s linear infinite;
-    @include down-md {
+    @include mixin.down-md {
       display: none;
     }
   }
@@ -496,7 +500,7 @@ a {
     h5 {
       font-weight: 700;
       font-size: 32px;
-      @include down-sm {
+      @include mixin.down-sm {
         font-size: 28px;
       }
     }
@@ -560,7 +564,7 @@ a {
     h5 {
       font-weight: 500;
       font-size: 40px;
-      @include down-sm {
+      @include mixin.down-sm {
         font-size: 32px;
       }
     }
@@ -573,13 +577,13 @@ a {
     }
   }
   .contact-banner {
-    @include up-md {
+    @include mixin.up-md {
       margin-top: -200px;
     }
   }
   .contact-info {
     padding: 20px 0 40px;
-    @include down-sm {
+    @include mixin.down-sm {
       padding: 20px 0 25px;
     }
     .contact-info-in {

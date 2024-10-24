@@ -1,3 +1,6 @@
+@use 'src/scss/scss/_mixin' as mixin; // Import with a namespace 'mixin'
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: inherit;
@@ -109,14 +112,14 @@ img {
   position: relative;
 }
 
-@include down-lg {
+@include mixin.down-lg {
   .section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 
-@include down-sm {
+@include mixin.down-sm {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -126,7 +129,7 @@ img {
 .section-heading {
   margin-bottom: 45px;
   position: relative;
-  @include down-sm {
+  @include mixin.down-sm {
     margin-bottom: 35px;
   }
   h6 {
@@ -157,7 +160,7 @@ img {
     span {
       color: var(--px-theme);
     }
-    @include down-sm {
+    @include mixin.down-sm {
       font-size: 35px;
     }
   }
@@ -176,7 +179,7 @@ img {
   padding: 30px;
   background-color: var(--px-white);
   position: relative;
-  @include down-lg {
+  @include mixin.down-lg {
     padding: 18px;
   }
 

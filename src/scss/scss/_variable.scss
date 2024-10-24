@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+// Fonts
 $px-font: 'Space Grotesk', sans-serif !default;
 
-// Theme Variable
+// Theme Variables
+$px-theme: #0788ff !default;
+$px-theme-rgb: 7, 136, 255 !default;
+$px-white: #fff !default;
+$px-black: #040c16 !default;
 
-$px-theme: #0788ff;
-$px-theme-rgb: 7, 136, 255;
-$px-white: #fff;
-$px-black: #040c16;
-
-$px-text: #707476;
-$px-heading: #fff;
+$px-text: #707476 !default;
+$px-heading: #fff !default;
 
 // Breakpoints
 $px-media-xsm: 567px !default;

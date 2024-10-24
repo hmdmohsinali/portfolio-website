@@ -1,9 +1,11 @@
+@use 'src/scss/scss/_variable.scss'; // Adjust the path if necessary
+
 :root {
   --bs-heading-color: var(--px-heading);
-  --px-theme: #{$px-theme};
-  --px-theme-rgb: #{$px-theme-rgb};
-  --px-black: #{$px-black};
-  --px-white: #{$px-white};
-  --px-text: #{$px-text};
-  --px-heading: #{$px-heading};
+  --px-theme: #{variable.$px-theme};
+  --px-theme-rgb: #{variable.$px-theme-rgb};
+  --px-black: #{variable.$px-black};
+  --px-white: #{variable.$px-white};
+  --px-text: #{variable.$px-text};
+  --px-heading: #{variable.$px-heading};
 }

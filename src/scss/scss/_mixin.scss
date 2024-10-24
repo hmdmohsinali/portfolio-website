@@ -1,48 +1,50 @@
+@use 'src/scss/scss/_variable' as variable; // Adjust the path if necessary
+
 // Media Responsive
 @mixin up-xsm {
-	@media(min-width: $px-media-xsm + 1 ){
-		@content;
-	}
+  @media(min-width: variable.$px-media-xsm + 1) {
+    @content;
+  }
 }
 
 @mixin down-xsm {
-	@media(max-width: $px-media-xsm){
-		@content;
-	}
+  @media(max-width: variable.$px-media-xsm) {
+    @content;
+  }
 }
 
 @mixin up-sm {
-	@media(min-width: $px-media-sm + 1 ){
-		@content;
-	}
+  @media(min-width: variable.$px-media-sm + 1) { // Use variable. namespace
+    @content;
+  }
 }
 
 @mixin down-sm {
-	@media(max-width: $px-media-sm){
-		@content;
-	}
+  @media(max-width: variable.$px-media-sm) { // Use variable. namespace
+    @content;
+  }
 }
 
 @mixin up-md {
-	@media(min-width: $px-media-md + 1 ){
-		@content;
-	}
+  @media(min-width: variable.$px-media-md + 1) {
+    @content;
+  }
 }
 
 @mixin down-md {
-	@media(max-width: $px-media-md){
-		@content;
-	}
+  @media (max-width: variable.$px-media-md) { // Use variable. namespace
+    @content;
+  }
 }
 
 @mixin up-lg {
-	@media(min-width: $px-media-lg + 1 ){
-		@content;
-	}
+  @media(min-width: variable.$px-media-lg + 1) {
+    @content;
+  }
 }
 
 @mixin down-lg {
-	@media(max-width: $px-media-lg){
-		@content;
-	}
+  @media(max-width: variable.$px-media-lg) {
+    @content;
+  }
 }
